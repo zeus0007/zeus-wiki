@@ -1,0 +1,100 @@
+body{ 
+    font-size : 13px;
+    display : flex;
+}
+.menu{
+    width : 150px;
+    height : 1000px;
+    padding : 20px;
+    background-image : linear-gradient(to top, #F6F6F6 0%, #F6F6F6 97%, #FFF 100%);
+    /*border-right : 20px solid transparent;
+    border-image: linear-gradient(to bottom right, #fff, #000);
+    background-color : #f6f6f6;*/
+    border-right: 1px solid transparent;
+    border-image: linear-gradient(to top, #A7D7F9 80%, #FFF 100%);
+    border-image-slice: 1;
+}
+.menuList2{
+    
+    border-top: 1px solid transparent;
+    border-image: linear-gradient(to right, #F6F6F6 0%,#D8D8D8 20%, #D8D8D8 80%, #F6F6F6 100%);
+    border-image-slice: 1;
+}
+a{
+    text-decoration : none;
+    color : #003FAB;
+}
+a:hover{
+    text-decoration : underline;
+}
+.main{
+    background-color : white;
+    float:left;
+    width : 80%;
+    margin-top : 10px;
+}
+.imgcenter{
+    text-align : center;
+}
+.topTopMenu{
+    text-align : right;
+}
+#span1{
+    color : gray;
+}
+.topMenu{
+    background-image : linear-gradient(to top, #F6F6F6 0%, #FFF 50%);
+    display : flex;
+}
+.topMenu1{
+    background-color: white;
+    border-right: 1px solid transparent;
+    border-image: linear-gradient(to top, #A7D7F9 50%, #F6F6F6 100%);
+    border-image-slice: 1;
+    width : 50px;
+    text-align: center;
+}
+.topMenu1 > a{
+    text-decoration : none;
+    color: black;
+}
+.topMenu2{
+    background-color: white;
+    border-right: 1px solid transparent;
+    border-image: linear-gradient(to top, #A7D7F9 30%, #F6F6F6 100%);
+    border-image-slice: 1;
+    border-bottom:1px solid #A7D7F9;
+    width : 50px;
+    background-image : linear-gradient(to top, #EBF2F8 0%, #FFF 100%);
+    text-align: center;
+    padding-bottom:2px;
+}
+.topMenu3{
+    background-color: white;
+    border-right: 1px solid transparent;
+    border-image: linear-gradient(to top, #A7D7F9 30%, #F6F6F6 100%);
+    border-image-slice: 1;
+    border-bottom:1px solid #A7D7F9;
+    width : 100%;
+    background-image : linear-gradient(to top, #F6F6F6 0%, #FFF 50%);
+    text-align: center;
+}
+.mainArticle{
+    padding : 20px;
+}
+#head1{
+    border-bottom : 1px solid gray;
+}
+.articleImg{
+    border :1px solid #AAAAAA;
+    background-color: #F9F9F9;
+    padding :0px 20px 5px 20px;
+}
+.flexx{
+    display :flex;
+}
+.realArticle{
+    width : 100%;
+    font-size : 15px;
+    line-height : 20px;
+}
