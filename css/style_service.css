@@ -1,3 +1,5 @@
+
+/* 미사용
 body{ 
     font-size : 13px;
     display : flex;
@@ -7,9 +9,6 @@ body{
     height : 2100px;
     padding : 20px;
     background-image : linear-gradient(to top, #F6F6F6 0%, #F6F6F6 97%, #FFF 100%);
-    /*border-right : 20px solid transparent;
-    border-image: linear-gradient(to bottom right, #fff, #000);
-    background-color : #f6f6f6;*/
     border-right: 1px solid transparent;
     border-image: linear-gradient(to top, #A7D7F9 80%, #FFF 100%);
     border-image-slice: 1;
@@ -95,3 +94,4 @@ a:hover{
     font-size : 15px;
     line-height : 20px;
 }
+*/

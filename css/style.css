@@ -1,58 +1,57 @@
 body{ 
-    font-size : 13px;
-    display : flex;
-    height : 100%;
+    font-size: 13px;
+    display: flex;
+    height: 100%;
 }
 .menu{
-    width : 150px;
-    padding : 20px;
-    background-color : #F6F6F6;
+    width: 150px;
+    padding: 20px;
+    background-color: #F6F6F6;
     border-right: 1px solid transparent;
     border-image: linear-gradient(to top, #A7D7F9 80%, #FFF 100%);
     border-image-slice: 1;
 }
 .menuList2{
-    
     border-top: 1px solid transparent;
     border-image: linear-gradient(to right, #F6F6F6 0%,#D8D8D8 20%, #D8D8D8 80%, #F6F6F6 100%);
     border-image-slice: 1;
 }
 a{
-    text-decoration : none;
-    color : #003FAB;
+    text-decoration: none;
+    color: #003FAB;
 }
 a:hover{
-    text-decoration : underline;
+    text-decoration: underline;
 }
 .main{
-    background-color : white;
-    float:left;
-    width : 80%;
-    margin-top : 10px;
+    background-color: white;
+    float: left;
+    width: 80%;
+    margin-top: 10px;
 }
 .imgcenter{
-    text-align : center;
+    text-align: center;
 }
 .topTopMenu{
-    text-align : right;
+    text-align: right;
 }
 #span1{
-    color : gray;
+    color: gray;
 }
 .topMenu{
-    background-image : linear-gradient(to top, #F6F6F6 0%, #FFF 50%);
-    display : flex;
+    background-image: linear-gradient(to top, #F6F6F6 0%, #FFF 50%);
+    display: flex;
 }
 .topMenu1{
     background-color: white;
     border-right: 1px solid transparent;
     border-image: linear-gradient(to top, #A7D7F9 50%, #F6F6F6 100%);
     border-image-slice: 1;
-    width : 50px;
+    width: 50px;
     text-align: center;
 }
 .topMenu1 > a{
-    text-decoration : none;
+    text-decoration: none;
     color: black;
 }
 .topMenu2{
@@ -60,38 +59,41 @@ a:hover{
     border-right: 1px solid transparent;
     border-image: linear-gradient(to top, #A7D7F9 30%, #F6F6F6 100%);
     border-image-slice: 1;
-    border-bottom:1px solid #A7D7F9;
-    width : 50px;
-    background-image : linear-gradient(to top, #EBF2F8 0%, #FFF 100%);
+    border-bottom: 1px solid #A7D7F9;
+    width: 50px;
+    background-image: linear-gradient(to top, #EBF2F8 0%, #FFF 100%);
     text-align: center;
-    padding-bottom:2px;
+    padding-bottom: 2px;
 }
 .topMenu3{
     background-color: white;
     border-right: 1px solid transparent;
     border-image: linear-gradient(to top, #A7D7F9 30%, #F6F6F6 100%);
     border-image-slice: 1;
-    border-bottom:1px solid #A7D7F9;
-    width : 100%;
-    background-image : linear-gradient(to top, #F6F6F6 0%, #FFF 50%);
+    border-bottom: 1px solid #A7D7F9;
+    width: 100%;
+    background-image: linear-gradient(to top, #F6F6F6 0%, #FFF 50%);
     text-align: center;
 }
 .mainArticle{
-    padding : 20px;
+    padding: 20px;
 }
 #head1{
-    border-bottom : 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 .articleImg{
-    border :1px solid #AAAAAA;
+    border: 1px solid #AAAAAA;
     background-color: #F9F9F9;
-    padding :0px 20px 5px 20px;
+    padding: 0px 20px 5px 20px;
 }
 .flexx{
-    display :flex;
+    display: flex;
 }
 .realArticle{
-    width : 100%;
-    font-size : 15px;
-    line-height : 20px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+}
+.middleLine{
+    text-decoration: line-through;
 }
